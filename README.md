@@ -1,6 +1,8 @@
 # spring-boot-number-generator
 A spring boot application that generates a sequence of numbers in the decreasing order till 0
 
+![Number Generator Diagram](docs/NumberGenerator.png?raw=true "Number Generator Diagram")
+
 # Requirements
 
   1.  Java - 1.8.x
