@@ -150,7 +150,7 @@ public class Publisher {
 			Task _task = taskData.get();
 			_task.setGoal(task.getGoal());
 			_task.setStep(task.getStep());
-
+			taskRepository.save(_task);
 			LOGGER.info("Sending message to the queue.");
 			amqpTemplate.convertAndSend(binding.getExchange(), binding.getRoutingKey(), _task);
 			System.out.println("Send msg = " + _task);
