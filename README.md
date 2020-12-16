@@ -26,7 +26,7 @@ Please follow https://www.rabbitmq.com/install-windows.html to install RabbitMQ 
 
 Please follow https://docs.mongodb.com/manual/tutorial/install-mongodb-on-windows/ to install mongodb on Windows machine
 
-**2. Build and run the app using maven**
+**4. Build and run the app using maven**
 ```
 cd spring-boot-number-generator
 mvn package
